@@ -42,3 +42,10 @@ body {
   color: var(--color-text);
   background: var(--color-bg);
 }
+.news-article,
+.siteheader,
+.sitefooter {
+  background: var(--color-surface);
+  box-shadow: 6px 6px 14px var(--shadow-dark),
+    -6px -6px 14px var(--shadow-light);
+}
