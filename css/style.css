@@ -77,3 +77,12 @@ body {
   color: var(--color-text);
   text-decoration: none;
 }
+.mobile.menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+}
