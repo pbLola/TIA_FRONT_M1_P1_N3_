@@ -109,3 +109,29 @@ body {
   transform: scale(1.02);
   outline: 4px solid rgba(255, 140, 66, 0.12);
 }
+
+.article-body {
+  padding: 16px;
+}
+.related {
+  margin-top: 16px;
+  padding: 16px;
+}
+.article-footer {
+  padding: 12px;
+}
+
+.btn-primary {
+  display: inline;
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  background: var(--color-accent);
+  color: #fff;
+  box-shadow: 6px 6px 12px, var(--shadow-dark),
+    -6px -6px 14px var(--shadow-light);
+}
+.btn-primary:focus {
+  outline: 3px solid rgba(32, 178, 170, 0.18);
+}
