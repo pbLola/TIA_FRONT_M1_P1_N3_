@@ -1,5 +1,7 @@
 # Projeto: M1P1N3 — Página de notícia revisada com hierarquia organizada
 
+![Print do Projeto](/TIA*FRONT_M1_P1_N3*/assets/assets/captura de tela.png)
+
 ## Descrição do projeto
 
 Página de notícia semântica, mobile-first e acessível criada como parte do
@@ -42,7 +44,18 @@ TIA_FRONTEND_M1_P1_N3)/
 
 ## Correções sugeridas
 
+- Corrigir seletor CSS de .mobile.menu para
+- .mobile-menu (menu não aparecia).
+- Corrigir erros de digitação em transition e border-color.
+- Ajustar :hover da imagem (.hero-figure img:hover).
+- Ícone de menu com 3 barras para mais clareza.
+
 ## Melhorias pós feedback
+
+- Adicionar animação de abertura/fechamento no menu (quando avançar para níveis com JS).
+- Melhorar contraste de hover em links e botões.
+- Testar acessibilidade em leitores de tela para validar aria-label e sr-only.
+- Expandir responsividade para tablets (breakpoints adicionais).
 
 ## 📝 Licença
 

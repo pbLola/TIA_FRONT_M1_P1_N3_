@@ -25,71 +25,130 @@
     <header class="site-header">
       <section class="container header-inner">
         <a href="/" class="logo" aria-label="Voltar para página inicial">
-          <img src="" alt="TIA Fontend - logo" width="120" height="36" />
+          <!-- logo.svg - simplificado -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 200 50"
+            width="200"
+            height="50"
+            role="img"
+            aria-label="TIA Frontend logo"
+          >
+            <rect rx="10" width="200" height="50" fill="#FF8C42" />
+            <text
+              x="20"
+              y="33"
+              font-family="Poppins, Arial"
+              font-size="18"
+              font-
+              weight="600"
+              fill="#fff"
+            >
+              TIA Frontend
+            </text>
+          </svg>
         </a>
-        <button class="btn-icon mobile-menu" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu">
-<span class="sr-only">Abrir menu</span>
-<svg width="18" height="2"/><rect x="3" y="11" width="18" height="2"/><rect x="3"
-y="16" width="18" height="2"/></svg>
+        <button
+          class="btn-icon mobile-menu"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="sr-only">Abrir menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <rect y="5" width="24" height="2" />
+            <rect y="11" width="24" height="2" />
+            <rect y="17" width="24" height="2" />
+          </svg>
         </button>
-        <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegação principal">
+        <nav
+          id="main-nav"
+          class="main-nav"
+          role="navigation"
+          aria-label="Navegação principal"
+        >
           <ul>
-                    <li><a href="#noticias" class="nav-link">Notícias</a></li>
-                    <li><a href="#assuntos" class="nav-link">Assuntos</a></li>
-                    <li><a href="#contatos" class="nav-link">Contato</a></li>
+            <li><a href="#noticias" class="nav-link">Notícias</a></li>
+            <li><a href="#assuntos" class="nav-link">Assuntos</a></li>
+            <li><a href="#contatos" class="nav-link">Contato</a></li>
           </ul>
         </nav>
       </section>
-          </header>
-      
-      <main id="main" class="site-main" role="main">
-<article class="news-article container" item>
-<header class="article-hero">
-<h1 itemprop="headline">Título da notícia: Aprendendo HTML semântico com projeto prático</h1>
-<p class="article-meta">
-<time datetime="2025-09-29" itemprop="datePublished">29 de setembro de 2025</time>
-por <span itemprop="author">Lohanne Castro Oliveira</span>
-</p>
-<figure class="hero-figure">
-<img src="assets/img/#" alt="Ilustração: jornal e laptop" itemprop="image">
-<figcaption>Imagem ilustrativa da notícia</figcaption>
-</figure>
-</header>
-<section class="article-body" itemprop="articleBody">
-          <p>Este parágrafo introdutório resume o conteúdo e mostra o uso de 
-marcação semântica correta. Use <strong>strong</strong> para ênfase e 
-<em>em</em> quando necessário.</p>
-<h2>Subtítulo: Por que usar HTML semnantico?</h2>
-<p>Conteúdo explicativo que ensina sobre a importância das tags 
-semânticas para acessibilidade, SEO e manutenção do código.</p>
-<h3>Lista e boas práticas</h3>
-<ul>
-          <li>Usar <code>&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, 
-&lt;article&gt;, &lt;aside&gt; e &lt;footer&gt;</code> corretamente.</li>
-<li>Imagens com <code>alt</code> descritivo.</li>
-<li>Estrutura de headings (h1 → h2 → h3).</li>
-</ul>
-<p>Exemplo de citação acessível</p>
-<blockquote>
-          <p>O HTML semântico melhora a compreensao do conteúdo por máquinas e leitores de tela</p>
-</blockquote>
-<p>Ao final, uma chamada para a acção (CTA) discreta:</p>
-<p><a class="btn-primary" href="#" role="button">Ler mais artigos</a></p>
-</section>
-<aside class="related container" aria-labelledby="related-heading">
+    </header>
+
+    <main id="main" class="site-main" role="main">
+      <article class="news-article container" item>
+        <header class="article-hero">
+          <h1 itemprop="headline">
+            Título da notícia: Aprendendo HTML semântico com projeto prático
+          </h1>
+          <p class="article-meta">
+            <time datetime="2025-09-29" itemprop="datePublished"
+              >29 de setembro de 2025</time
+            >
+            por <span itemprop="author">Lohanne Castro Oliveira</span>
+          </p>
+          <figure class="hero-figure">
+            <img
+              src="assets/img/thumb-2.png"
+              alt="Ilustração: jornal e laptop"
+              itemprop="image"
+            />
+            <figcaption>Imagem ilustrativa da notícia</figcaption>
+          </figure>
+        </header>
+        <section class="article-body" itemprop="articleBody">
+          <p>
+            Este parágrafo introdutório resume o conteúdo e mostra o uso de
+            marcação semântica correta. Use <strong>strong</strong> para ênfase
+            e <em>em</em> quando necessário.
+          </p>
+          <h2>Subtítulo: Por que usar HTML semnantico?</h2>
+          <p>
+            Conteúdo explicativo que ensina sobre a importância das tags
+            semânticas para acessibilidade, SEO e manutenção do código.
+          </p>
+          <h3>Lista e boas práticas</h3>
+          <ul>
+            <li>
+              Usar
+              <code
+                >&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;,
+                &lt;aside&gt; e &lt;footer&gt;</code
+              >
+              corretamente.
+            </li>
+            <li>Imagens com <code>alt</code> descritivo.</li>
+            <li>Estrutura de headings (h1 → h2 → h3).</li>
+          </ul>
+          <p>Exemplo de citação acessível</p>
+          <blockquote>
+            <p>
+              O HTML semântico melhora a compreensao do conteúdo por máquinas e
+              leitores de tela
+            </p>
+          </blockquote>
+          <p>Ao final, uma chamada para a acção (CTA) discreta:</p>
+          <p>
+            <a class="btn-primary" href="#" role="button">Ler mais artigos</a>
+          </p>
+        </section>
+        <aside class="related container" aria-labelledby="related-heading">
           <h2 id="related-heading">Notícias relacionadas</h2>
           <ul>
-                    <li><a href="#">Como melhorar seo SEO técnico</a></li>
-                    <li><a href="#">Guia rápido de acessibilidade</a></li>
+            <li><a href="#">Como melhorar seo SEO técnico</a></li>
+            <li><a href="#">Guia rápido de acessibilidade</a></li>
           </ul>
-</aside>
-</article>
-      </main>
-<footer class="site-footer" role="contentinfo">
-          <section class="container">
-<p>&copy; 2025 Lohanne Castro Oliveira — Projeto TIA FrontEnd. <a href="#">Política de privacidade</a></p>
-          </section>
-
-</footer>
+        </aside>
+      </article>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+      <section class="container">
+        <p>
+          &copy; 2025 Lohanne Castro Oliveira — Projeto TIA FrontEnd.
+          <a href="#">Política de privacidade</a>
+        </p>
+      </section>
+    </footer>
   </body>
 </html>
